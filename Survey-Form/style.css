@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+  background-image: linear-gradient(115deg, rgba(58,58,158,0.8), rgba(136,136,206,0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header {
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+#title{
+  margin-bottom: 0.5rem;
+}
+#description{
+    margin-top: 3px;
+    marging-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+#survey-form{
+  background: rgba(27,27,50,0.8);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  border-radius: 0.25rem;
+  padding:35px 0px 0px 35px;
+  margin: 0px 350px 0px 350px;
+}
+#name{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 87%;
+  padding: 0.5rem;
+}
+#email{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 0.5rem;
+  width: 87%;
+}
+#number{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 0.5rem;
+  width: 87%;
+}
+.selOne{
+  margin-top: 10px;
+  width: 100%;
+}
+.radioo{
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
+.select2{
+    margin-top: 25px;
+}
+#dropdown{
+  width: 91%;
+  padding: 0.5rem;
+  margin-top: 10px;
+}
+.check{
+  margin-top: 30px;
+}
+.finallabel{
+  margin-top: 30px;
+}
+textarea{
+  margin-top: 10px;
+  width: 91%;
+}
+#submit{
+  background: green;
+  color: white;
+  align-items: center;
+  width: 93%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
